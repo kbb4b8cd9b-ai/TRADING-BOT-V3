@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trading AI v3</title><link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+<h1>Trading AI v3</h1>
+<section class="grid">
+<div>Modalità<strong id="mode">PAPER</strong></div>
+<div>Equity<strong id="equity">€50.00</strong></div>
+<div>P/L oggi<strong id="pnl">€0.00</strong></div>
+</section>
+<div class="buttons"><button onclick="startPaper()">AVVIA PAPER</button><button onclick="stopBot()">STOP</button></div>
+<section><h2>10 agenti</h2><div id="agents"></div></section>
+<section><h2>Analisi</h2><button onclick="analyze()">ANALIZZA</button><pre id="result">Pronto.</pre></section>
+</main><script src="app.js"></script></body></html>
